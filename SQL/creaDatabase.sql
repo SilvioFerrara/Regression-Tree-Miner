@@ -1,0 +1,6 @@
+CREATE DATABASE MapDB;
+CREATE USER 'MapUser'@'localhost'IDENTIFIED BY 'map';
+GRANT CREATE, SELECT, INSERT, DELETE ON MapDB.* TO MapUser@localhost;
+FLUSH PRIVILEGES;
+SHOW GRANTS FOR 'MapUser'@'localhost';
+SELECT User,Host FROM mysql.user;

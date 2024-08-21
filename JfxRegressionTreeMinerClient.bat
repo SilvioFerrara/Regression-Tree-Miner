@@ -1,0 +1,1 @@
+start java -jar JfxRegressionTreeMinerClient.jar "0.0.0.0"  "8080"

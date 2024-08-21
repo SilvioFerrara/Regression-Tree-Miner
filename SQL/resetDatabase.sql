@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS MapDB;
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'MapUser'@'localhost';
+DROP USER 'MapUser'@'localhost';
